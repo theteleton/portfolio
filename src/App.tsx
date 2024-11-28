@@ -4,18 +4,20 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import ConstellationParticles from './ConstellationParticles';
 
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     
-    <div style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
+    <div>
       <ConstellationParticles />
-      <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "#fff" }}>
-        <header className="App-header">
+        <header>
           <NavigationBar></NavigationBar>
         </header>
-      </div>
+        <body>
+        
+        </body>
+      
     </div>
     
   );
